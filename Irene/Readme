@@ -1,0 +1,5 @@
+This is a little project for a friend that wanted to display a little webpage where guests could leave anonymous messages on a dashboard. 
+It was simple enough, but having never seriously dabbed in PHP I encountered some challenges that I was able to overcome in a short amount of time. 
+One of the biggest challenges was setting up a decent dev environment for PHP, I used Atom and the package ["php server"](https://atom.io/packages/php-server) which proved to be extremely helpful. 
+I am sure the original code was not written by my friend, I tried searching for the author to no avail. 
+The code is edited beyond recognition but if you find something that might belong to you shoot me an email.
