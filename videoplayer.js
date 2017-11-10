@@ -23,7 +23,7 @@ function initialiseMediaPlayer() {
         progressBar = document.getElementById('progress-bar');
 
         // Hide the browser's default controls
-        mediaPlayer.controls = false;
+        mediaPlayer.controls = true;
 
         // Add a listener for the timeupdate event so we can update the progress bar
         mediaPlayer.addEventListener('timeupdate', updateProgressBar, false);
@@ -166,7 +166,7 @@ function resetPlayer() {
     // Reset the progress bar to 0
     progressBar.value = 0;
     // Move the media back to the start
-    mediaPlayer.currentTime = 0;
+    mediaPlayer.currentTime = ;
     // Ensure that the play pause button is set as 'play'
     changeButtonType(playPauseBtn, 'play');
 }
